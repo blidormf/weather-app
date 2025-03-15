@@ -2,6 +2,10 @@
 
 A weather application that shows current weather conditions along with matching GIF animations to represent the weather vibe.
 
+## Preview
+
+![WeatherVibe Screenshot](./screenshot.png)
+
 ## Features
 
 - Real-time weather information
