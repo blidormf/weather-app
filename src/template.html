@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherVibe</title>
+    <script
+      src="https://kit.fontawesome.com/7145323dfa.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <nav>
+      <i class="fa-solid fa-cloud" style="color: #fff5ec"></i>
+      WeatherVibe
+      <i class="fa-solid fa-image" style="color: #fff5ec;"></i>
+    </nav>
+
+    <form>
+      <label for="location">
+        <input type="text" id="location" name="location" required />
+        <button id="search-button">
+          <i class="fa-solid fa-magnifying-glass" style="color: #fff5ec"></i>
+        </button>
+      </label>
+    </form>
+
+    <div class="container">
+      <div class="results">
+        <div class="loading"></div>
+        <div class="gif"><img class="hidden"></div>
+        <div class="location">Search for a location to see the weather!</div>
+        <div class="temperature"></div>
+        <div class="description"></div>
+      </div>
+    </div>
+  </body>
+
+  <footer>
+    <p>© 2024 blidormf</p>
+</footer>
+</html>
