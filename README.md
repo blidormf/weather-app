@@ -4,7 +4,7 @@ A weather application that shows current weather conditions along with matching 
 
 ## Preview
 
-![WeatherVibe Screenshot](./screenshot.png)
+![WeatherVibe Screenshot](./src/assets/images/screenshot.png)
 
 ## Features
 
